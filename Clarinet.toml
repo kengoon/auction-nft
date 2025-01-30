@@ -7,8 +7,26 @@ cache_dir = './.cache'
 requirements = []
 [contracts.auction]
 path = 'contracts/auction.clar'
+clarity_version = 1
+epoch = 2.05
+
 [contracts."external/ape"]
 path = 'contracts/external/ape.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts."external/groot"]
+path = 'contracts/external/groot.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts."external/mega"]
+path = 'contracts/external/mega.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts."external/wl"]
+path = 'contracts/external/wl.clar'
 clarity_version = 2
 epoch = 2.5
 [repl.analysis]
